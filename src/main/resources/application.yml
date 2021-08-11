@@ -1,0 +1,36 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: chat
+  redis:     #redis
+    host: xxxx
+  datasource: #mysql
+    driverClassName: com.mysql.jdbc.Driver
+    url: xxxx
+    username: xxx
+    password: xxxx
+  jpa:      #springdata
+    database: MySQL
+    show-sql: true
+  rabbitmq: #RabbitMQ
+    host: xxxx
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  thymeleaf:
+    # 定位模板的目录
+    prefix: /
+    # 给返回的页面添加后缀名
+    suffix: .html
+aliyun:  #aliyun短信通信证accesskeys
+  sms:  #通行证信息
+    accessKeyId: xxxx
+    accessKeySecret: xxxx
+    template_code: xxxxx
+    sign_name: xxxxx
+jwt:
+  config:
+    key: zyhhahahaeha
+
