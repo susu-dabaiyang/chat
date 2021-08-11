@@ -1,4 +1,7 @@
 # chat
+文档说明可以看
+https://zhuanlan.zhihu.com/p/112928374
+https://www.jianshu.com/p/ca83e26dab68
 
 部分功能:
 - 手机验证码登录注册,以及修改<br>
